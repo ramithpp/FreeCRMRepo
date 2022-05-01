@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [FreeCRMTestSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="ExtendReportPackage.ExtentReportListener"/>
+  </listeners>
+  <test name="FreeCRMAppTest">
+    <classes>
+      <class name="com.crm.qa.test.LoginPageTest"/>
+      <class name="com.crm.qa.test.HomePageTest"/>
+    </classes>
+  </test> <!-- FreeCRMAppTest -->
+</suite> <!-- Failed suite [FreeCRMTestSuite] -->
